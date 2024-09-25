@@ -12,6 +12,10 @@ keywords    = ["xdg", "basedir", "app_dirs", "path", "folder"]
 [dependencies]
 dirs-sys = "0.4.1"
 
+[target.'cfg(target_os = "android")'.dependencies]
+robius-android-env = "0.1.0"
+jni = "^0.21.1"
+
 [dev-dependencies]
 bencher = "0.1.5"
 

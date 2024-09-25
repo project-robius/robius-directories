@@ -14,6 +14,9 @@
 
 #![deny(missing_docs)]
 
+#[cfg(target_os = "android")]
+extern crate jni;
+
 use std::path::Path;
 use std::path::PathBuf;
 
@@ -25,6 +28,10 @@ use win as sys;
 mod mac;
 #[cfg(any(target_os = "macos", target_os = "ios"))]
 use mac as sys;
+#[cfg(target_os = "android")]
+mod android;
+#[cfg(target_os = "android")]
+use android as sys;
 #[cfg(target_arch = "wasm32")]
 mod wasm;
 #[cfg(target_arch = "wasm32")]
@@ -32,12 +39,14 @@ use wasm as sys;
 #[cfg(not(any(
     target_os = "windows",
     target_os = "macos", target_os = "ios",
+    target_os = "android",
     target_arch = "wasm32"
 )))]
 mod lin;
 #[cfg(not(any(
     target_os = "windows",
     target_os = "macos", target_os = "ios",
+    target_os = "android",
     target_arch = "wasm32"
 )))]
 use lin as sys;
