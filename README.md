@@ -58,7 +58,7 @@ if let Some(proj_dirs) = ProjectDirs::from("com", "Foo Corp",  "Bar App") {
     // Lin: /home/alice/.config/barapp
     // Win: C:\Users\Alice\AppData\Roaming\Foo Corp\Bar App\config
     // Mac: /Users/Alice/Library/Application Support/com.Foo-Corp.Bar-App
-    // Android: /data/.../org.Baz-Corp.Foo-Bar-App
+    // Android: /data/.../org.Baz-Corp.Foo-Bar-App/files
 }
 
 if let Some(base_dirs) = BaseDirs::new() {
