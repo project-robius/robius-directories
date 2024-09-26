@@ -20,7 +20,7 @@ The library provides the location of these directories by leveraging the mechani
 - the [Standard Directories](https://developer.apple.com/library/content/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW6)
   guidelines on macOS
 - the [Context](https://developer.android.com/reference/android/content/Context) SDK APIs on Android
-  - Specifically, [`getFilesDir()](https://developer.android.com/reference/android/content/Context#getFilesDir()) and [`getCacheDir()`](https://developer.android.com/reference/android/content/Context#getCacheDir())
+  - Specifically, [`getFilesDir()`](https://developer.android.com/reference/android/content/Context#getFilesDir()) and [`getCacheDir()`](https://developer.android.com/reference/android/content/Context#getCacheDir())
 
 ## Platforms
 
