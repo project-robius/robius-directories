@@ -25,7 +25,6 @@ pub fn project_dirs_from_path(project_path: PathBuf) -> Option<ProjectDirs> {
         let config_local_dir = config_dir.clone();
         let data_dir = config_dir.clone();
         let data_local_dir = config_dir.clone();
-        // TODO
         let preference_dir = config_dir.clone();
 
         Some(ProjectDirs {
