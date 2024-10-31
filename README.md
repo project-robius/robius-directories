@@ -1,5 +1,5 @@
-<!-- [![crates.io](https://img.shields.io/crates/v/directories.svg?style=for-the-badge)](https://crates.io/crates/directories) -->
-<!-- [![API documentation](https://img.shields.io/docsrs/directories/latest?style=for-the-badge)](https://docs.rs/directories/) -->
+[![crates.io](https://img.shields.io/crates/v/robius-directories.svg?style=for-the-badge)](https://crates.io/crates/robius-directories)
+[![docs](https://img.shields.io/docsrs/robius-directories/latest?style=for-the-badge)](https://docs.rs/robius-directories/)
 ![actively developed](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg?style=for-the-badge)
 ![License: MIT/Apache-2.0](https://img.shields.io/badge/license-MIT%2FApache--2.0-orange.svg?style=for-the-badge)
 
