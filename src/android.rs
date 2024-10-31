@@ -1,6 +1,6 @@
 extern crate dirs_sys;
 
-use std::{env, path::PathBuf};
+use std::path::PathBuf;
 
 use jni::{
     objects::{JObject, JString},
@@ -39,6 +39,7 @@ pub fn project_dirs_from_path(project_path: PathBuf) -> Option<ProjectDirs> {
             state_dir: None,
         })
     })
+    .ok()
     .flatten()
 }
 
