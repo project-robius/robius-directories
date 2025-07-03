@@ -58,7 +58,7 @@ if let Some(proj_dirs) = ProjectDirs::from("com", "Foo Corp",  "Bar App") {
     // Lin: /home/alice/.config/barapp
     // Win: C:\Users\Alice\AppData\Roaming\Foo Corp\Bar App\config
     // Mac: /Users/Alice/Library/Application Support/com.Foo-Corp.Bar-App
-    // Android: /data/.../org.Baz-Corp.Foo-Bar-App/files
+    // Android: /data/.../org.Foo-Corp.Bar-App/files
 }
 
 if let Some(base_dirs) = BaseDirs::new() {
@@ -231,6 +231,10 @@ cargo build --target=x86_64-unknown-redox
 ```
 
 ## Changelog
+
+### 6
+
+- Update `dirs-sys` dependency to `0.5.0`, which in turn updates `windows-sys` dependency to `0.59.0`.
 
 ### 5
 
