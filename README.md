@@ -1,3 +1,5 @@
+Archived: this has moved to https://github.com/project-robius/robius
+
 [![crates.io](https://img.shields.io/crates/v/robius-directories.svg?style=for-the-badge)](https://crates.io/crates/robius-directories)
 [![docs](https://img.shields.io/docsrs/robius-directories/latest?style=for-the-badge)](https://docs.rs/robius-directories/)
 ![actively developed](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg?style=for-the-badge)
